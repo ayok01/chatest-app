@@ -1,20 +1,19 @@
 {
   "name": "chatest-app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kirota401e/chatest-app",
+  "author": "kirota401e <kirota401e@gmail.com>",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
+  "license": "MIT",
   "dependencies": {
-    "next": "10.0.3",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.12",
-    "@types/react": "^17.0.0",
-    "typescript": "^4.1.2"
+    "@material-ui/core": "^4.11.3",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
